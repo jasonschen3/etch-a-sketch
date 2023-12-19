@@ -23,10 +23,10 @@ function createGrid(squaresPerSide) {
         changeColor(gridCell, "green");
       });
 
-      //   // Event if mouse not over, then reset
-      //   gridCell.addEventListener("mouseleave", () => {
-      //     changeColor(gridCell, "white");
-      //   });
+      // Event if mouse not over, then reset
+      gridCell.addEventListener("mouseleave", () => {
+        changeColor(gridCell, "#90EE90");
+      });
 
       currentRow.appendChild(gridCell);
     }
